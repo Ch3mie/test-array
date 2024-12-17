@@ -973,5 +973,11 @@ Annual Anime Grand Prix.`,
   },
 ];
 // 1)While chaining array methods, print the name of each movie that has a score above 8.0
+let movie = data;
+const result = movie.filter((movies) => movies.score > 7.9);
+console.log(result);
 
 // 2) While chaining array methods, print the name of each anime that "includes" the genre action
+
+const result2 = data.filter((movies) => movies.stringGenres.includes("action"));
+console.log(result2);
